@@ -4,6 +4,15 @@ public class Sepeda {
     int kecepatan;
     int gear;
 
+    public Sepeda(){
+        
+    }
+
+    public Sepeda(int newKecepatan, int newGear){
+        kecepatan = newKecepatan;
+        gear = newGear;
+    }
+
     public void tambahKecepatan(int increment){
         kecepatan += increment;
 
