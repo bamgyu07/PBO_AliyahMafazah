@@ -1,15 +1,23 @@
 package Praktikum02;
 
 public class Sepeda {
-    float kecepatan;
+    int kecepatan;
     int gear;
 
-    public void tambahKecepatan(float increment){
+    public void tambahKecepatan(int increment){
         kecepatan += increment;
+
+        if (kecepatan > 20){
+            kecepatan = 20;
+        }
     }
 
-    public void kurangiKecepatan(float decrement){
+    public void kurangiKecepatan(int decrement){
         kecepatan -= decrement;
+
+        if (kecepatan < 0){
+            kecepatan = 0;
+        }
     }
 
     public void cetakInfo(){
