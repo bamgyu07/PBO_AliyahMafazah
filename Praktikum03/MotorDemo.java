@@ -23,5 +23,11 @@ public class MotorDemo {
         motor4.setStatusMesin(true);
         motor4.setKecepatan(125);
         motor4.displayInfo();
+
+        Motor motor5 = new Motor();
+        motor5.setPlatNomor("N 7535 PL");
+        motor5.setStatusMesin(true);
+        motor5.setKecepatan(-45);
+        motor5.displayInfo();
     }
 }
