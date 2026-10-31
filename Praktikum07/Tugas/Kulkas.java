@@ -4,7 +4,6 @@ public class Kulkas extends Elektronik {
     public int suhu;
 
     public Kulkas(){
-
     }
 
     public Kulkas(String nama, String merk, double harga, int suhu){

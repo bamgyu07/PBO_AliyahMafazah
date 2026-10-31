@@ -4,7 +4,6 @@ public class Laptop extends Elektronik {
     public String processor;
 
     public Laptop(){
-
     }
 
     public Laptop(String nama, String merk, double harga, String processor){

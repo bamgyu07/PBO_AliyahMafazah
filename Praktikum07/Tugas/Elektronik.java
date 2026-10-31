@@ -6,7 +6,6 @@ public class Elektronik {
     public double harga;
 
     public Elektronik(){
-
     }
 
     public Elektronik(String nama, String merk, double harga){
