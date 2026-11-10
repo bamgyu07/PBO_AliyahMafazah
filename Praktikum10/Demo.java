@@ -7,9 +7,6 @@ public class Demo {
         
         train(dosen1);
         train(tendik1);
-
-        Pegawai pegawai1 =new Pegawai("20010321", "Choi Beomgyu");
-        Dosen dosen2 = (Dosen) pegawai1;
     }
     
     public static void train(Pegawai pegawai) {
