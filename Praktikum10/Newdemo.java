@@ -18,7 +18,7 @@ public class Newdemo {
         printables.add(doc1);
 
         Printer printer1 = new Printer();
-        printer1.print(webpage1);
-        printer1.print(doc1);
+        printer1.cetak(webpage1);
+        printer1.cetak(doc1);
     }
 }
